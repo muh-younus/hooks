@@ -1,11 +1,17 @@
 import './App.css'
+import Color from './component/hook.jsx';
+import Object from './component/obhook.jsx';
 
 export default function App() {
   return (
-    <main>
-      <h1>React + TypeScript + Replit</h1>
-      <p>Hello, world!</p>
+    <>
+      <h1>Hello</h1>
+
+      <Color />
+      <Object />
+      
+      
      
-    </main>
+    </>
   )
 }
